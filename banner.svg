@@ -1,60 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%">
   <defs>
+    <!-- Gradiente de Fundo (Combinando com a foto) -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e0036" />
-      <stop offset="50%" stop-color="#4a0e4e" />
-      <stop offset="100%" stop-color="#0d1117" />
+      <stop offset="0%" stop-color="#2D1B69" /> <!-- Roxo Profundo -->
+      <stop offset="100%" stop-color="#0D1117" /> <!-- Escuro GitHub -->
     </linearGradient>
+
+    <!-- Filtro de Brilho Neon para o Texto -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
   </defs>
 
   <style>
     .bg { fill: url(#bgGrad); }
 
-    /* Bolhas de cor em movimento */
-    .blob-magenta { fill: #f72585; opacity: 0.6; animation: moveMagenta 7s infinite alternate ease-in-out; }
-    .blob-purple { fill: #7209b7; opacity: 0.7; animation: movePurple 9s infinite alternate ease-in-out; }
-    .blob-cyan { fill: #00ffff; opacity: 0.4; animation: moveCyan 6s infinite alternate ease-in-out; }
+    /* Esferas de Luz Neon (Azul e Violeta da foto) */
+    .blob-1 { fill: #8A2BE2; opacity: 0.5; animation: move 8s infinite alternate ease-in-out; }
+    .blob-2 { fill: #00BFFF; opacity: 0.4; animation: move 10s infinite alternate-reverse ease-in-out; }
+    .blob-3 { fill: #f7ff01; opacity: 0.3; animation: move 12s infinite alternate ease-in-out; }
 
-    @keyframes moveMagenta {
+    @keyframes move {
       0% { transform: translate(0px, 0px) scale(1); }
-      100% { transform: translate(180px, -40px) scale(1.3); }
-    }
-    @keyframes movePurple {
-      0% { transform: translate(0px, 0px) scale(1); }
-      100% { transform: translate(-220px, 30px) scale(0.85); }
-    }
-    @keyframes moveCyan {
-      0% { transform: translate(0px, 0px) scale(0.9); }
-      100% { transform: translate(140px, 50px) scale(1.4); }
+      100% { transform: translate(150px, 50px) scale(1.2); }
     }
 
-    /* Texto com efeito de brilho e pulso */
+    /* Texto Central (Pulsante e com Brilho) */
     .pulse-text {
       font-family: 'Segoe UI', Ubuntu, sans-serif;
       font-weight: 900;
-      fill: #ffffff;
-      font-size: 42px;
-      letter-spacing: 6px;
+      fill: #f7ff01;
+      font-size: 40px;
+      letter-spacing: 5px;
+      filter: url(#neonGlow);
       transform-origin: center;
       transform-box: fill-box;
-      animation: pulseText 2s infinite alternate ease-in-out;
+      animation: pulseText 2.5s infinite alternate ease-in-out;
     }
 
     @keyframes pulseText {
-      0% { transform: scale(0.94); opacity: 0.75; }
-      100% { transform: scale(1.06); opacity: 1; }
+      0% { transform: scale(0.95); opacity: 0.8; }
+      100% { transform: scale(1.05); opacity: 1; }
     }
   </style>
 
-  <!-- Fundo Gradiente -->
-  <rect class="bg" width="800" height="220" rx="16"/>
+  <!-- Fundo -->
+  <rect class="bg" width="800" height="220" rx="15"/>
 
-  <!-- Cores em Movimento -->
-  <circle class="blob-purple" cx="620" cy="110" r="120" />
-  <circle class="blob-magenta" cx="180" cy="100" r="100" />
-  <circle class="blob-cyan" cx="400" cy="150" r="80" />
-
-  <!-- Texto Central Pulsante -->
+  <!-- Luzes de Fundo -->
+  <circle class="blob-1" cx="200" cy="110" r="100" />
+  <circle class="blob-2" cx="600" cy="110" r="90" />
+  <circle class="blob-3" cx="400" cy="110" r="80" />
+  <!-- Texto Central -->
   <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" class="pulse-text">
     LUIZ CERVIERI
   </text>
