@@ -19,7 +19,7 @@ Venho aprimorando minhas competências por meio de aulas do Campus, pesquisas ac
 ### 📬 Chega Junto!
 
 <p>
-  <a href="https://linkedin.com/in/SEU_LINKEDIN" target="_blank">
+  <a href="https://linkedin.com/in/uiz-henrique-cervieri-rodrigues-a94b443b5" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:luizhenriquecervierirodrigue@gmail.com">
@@ -79,3 +79,8 @@ Venho aprimorando minhas competências por meio de aulas do Campus, pesquisas ac
 </p>
 
 
+---
+<p align="center">
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=luizhenriquecervierirodrigues-cmyk&show_icons=true&theme=tokyonight&title_color=f7ff01&icon_color=f7ff01&text_color=ffffff&bg_color=0d1117&include_all_commits=true" alt="Estatísticas GitHub" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=luizhenriquecervierirodrigues-cmyk&layout=compact&theme=tokyonight&title_color=f7ff01&text_color=ffffff&bg_color=0d1117" alt="Linguagens mais usadas" />
+</p>
