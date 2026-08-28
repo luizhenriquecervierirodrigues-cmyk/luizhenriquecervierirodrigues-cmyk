@@ -1,4 +1,4 @@
-![Banner Animado](./banner.svg)
+![Banner Animado](./banner.svg?v=2)
 
 <p align="center">
   <a href="https://git.io/typing-svg">
