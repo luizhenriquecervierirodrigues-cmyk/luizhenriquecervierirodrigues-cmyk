@@ -1,54 +1,96 @@
-![Banner Animado](./banner.svg)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%">
+  <defs>
+    <!-- Gradiente animado em movimento (Roxo e Magenta) -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e0036">
+        <animate attributeName="stop-color" values="#1e0036;#3c096c;#5a189a;#7b2cbf;#1e0036" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#7209b7">
+        <animate attributeName="stop-color" values="#7209b7;#b5179e;#ff007f;#7209b7" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#f72585">
+        <animate attributeName="stop-color" values="#f72585;#7209b7;#3a0ca3;#f72585" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF00FF&center=true&vcenter=true&width=500&lines=Estudante+de+Desenvolvimento;Desenvolvedor+Full+Stack+em+Forma%C3%A7%C3%A3o;Entusiasta+de+Tecnologia;Amante+de+Estiliza%C3%A7%C3%A3o" alt="Typing SVG" />
-  </a>
-</p>
+    <!-- Filtro de Brilho Neon para o Texto -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur1" />
+      <feGaussianBlur stdDeviation="8" result="blur2" />
+      <feGaussianBlur stdDeviation="16" result="blur3" />
+      <feMerge>
+        <feMergeNode in="blur3" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
 
----
+  <style>
+    .bg {
+      fill: url(#bgGrad);
+    }
 
-### 🚀 Sobre Mim
-* 🎓 Cursando Desenvolvimento de Sistemas.
-* 💡 Focado em aprender desenvolvimento web, mobile e arquitetura de software.
-* 📬 Entre em contato comigo via e-mail ou LinkedIn.
+    /* Bolhas de tinta em movimento */
+    .cyan { fill: #00FFFF; opacity: 0.45; mix-blend-mode: screen; animation: moveCyan 7s infinite alternate ease-in-out; }
+    .magenta { fill: #FF00FF; opacity: 0.55; mix-blend-mode: screen; animation: moveMagenta 9s infinite alternate ease-in-out; }
+    .yellow { fill: #FFFF00; opacity: 0.4; mix-blend-mode: screen; animation: moveYellow 6s infinite alternate ease-in-out; }
 
----
+    @keyframes moveCyan {
+      0% { transform: translate(120px, 110px) scale(0.9); }
+      100% { transform: translate(450px, 70px) scale(1.4); }
+    }
+    @keyframes moveMagenta {
+      0% { transform: translate(650px, 130px) scale(1.3); }
+      100% { transform: translate(300px, 100px) scale(0.8); }
+    }
+    @keyframes moveYellow {
+      0% { transform: translate(380px, 60px) scale(0.7); }
+      100% { transform: translate(520px, 150px) scale(1.3); }
+    }
 
-### 🛠️ Tecnologias e Ferramentas
+    /* Texto Pulsante e Brilhante */
+    .pulse-text {
+      font-family: 'Segoe UI', Ubuntu, 'Arial Black', sans-serif;
+      font-weight: 900;
+      fill: #FFFFFF;
+      font-size: 38px;
+      letter-spacing: 5px;
+      transform-box: fill-box;
+      transform-origin: center;
+      filter: url(#neonGlow);
+      animation: pulse 2.2s infinite ease-in-out;
+    }
 
-**Linguagens**
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+    @keyframes pulse {
+      0% {
+        transform: scale(0.95);
+        opacity: 0.85;
+      }
+      50% {
+        transform: scale(1.06);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(0.95);
+        opacity: 0.85;
+      }
+    }
+  </style>
 
-**Frameworks & Bibliotecas**
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  <!-- Fundo com gradiente animado -->
+  <rect class="bg" width="800" height="220" rx="16"/>
 
-**Ferramentas & SO**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+  <!-- Tintas em movimento -->
+  <g>
+    <circle class="cyan" r="75" />
+    <circle class="magenta" r="80" />
+    <circle class="yellow" r="70" />
+  </g>
 
----
-
-### 📊 Estatísticas do GitHub
-
-<p align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=luizhenriquecervierirodrigues-cmyk&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizhenriquecervierirodrigues-cmyk&layout=compact&theme=tokyonight"/>
-</p>
-
-<p align="center">
-  <img height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=luizhenriquecervierirodrigues-cmyk&theme=tokyonight"/>
-</p>
-
----
-
-<p align="center">
-  👁️ Visualizações do perfil: <img src="https://komarev.com/ghpvc/?username=luizhenriquecervierirodrigues-cmyk&color=00ffff&style=flat-square" alt="Perfil Views" />
-</p>
+  <!-- Texto com brilho e pulso -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="pulse-text">
+    LUIZ CERVIERI
+  </text>
+</svg>
