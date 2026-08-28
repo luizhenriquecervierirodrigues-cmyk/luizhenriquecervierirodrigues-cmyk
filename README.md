@@ -59,13 +59,7 @@
 
 ---
 
-### 📊 Estatísticas
-
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=luizhenriquecervierirodrigues-cmyk&show_icons=true&theme=tokyonight&title_color=f7ff01&icon_color=f7ff01&text_color=ffffff&bg_color=0d1117&include_all_commits=true&cache_seconds=1800" alt="Estatísticas GitHub" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizhenriquecervierirodrigues-cmyk&layout=compact&theme=tokyonight&title_color=f7ff01&text_color=ffffff&bg_color=0d1117&cache_seconds=1800" alt="Linguagens mais usadas" />
-</p>
-
-<p align="center">
-  👁️ Visualizações do perfil: <img src="https://komarev.com/ghpvc/?username=luizhenriquecervierirodrigues-cmyk&color=f7ff01&style=flat-square" alt="Perfil Views" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=luizhenriquecervierirodrigues-cmyk&show_icons=true&theme=tokyonight&title_color=f7ff01&icon_color=f7ff01&text_color=ffffff&bg_color=0d1117&include_all_commits=true" alt="Estatísticas GitHub" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=luizhenriquecervierirodrigues-cmyk&layout=compact&theme=tokyonight&title_color=f7ff01&text_color=ffffff&bg_color=0d1117" alt="Linguagens mais usadas" />
 </p>
