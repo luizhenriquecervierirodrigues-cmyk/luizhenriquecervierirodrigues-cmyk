@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%">
+  <style>
+    .bg { fill: #0d1117; }
+    .cyan { fill: #00FFFF; opacity: 0.65; mix-blend-mode: screen; animation: moveCyan 6s infinite alternate ease-in-out; }
+    .magenta { fill: #FF00FF; opacity: 0.65; mix-blend-mode: screen; animation: moveMagenta 8s infinite alternate ease-in-out; }
+    .yellow { fill: #FFFF00; opacity: 0.55; mix-blend-mode: screen; animation: moveYellow 5s infinite alternate ease-in-out; }
+    .text { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 800; fill: #FFFFFF; font-size: 32px; letter-spacing: 3px; }
+
+    @keyframes moveCyan {
+      0% { transform: translate(180px, 110px) scale(1); }
+      100% { transform: translate(380px, 80px) scale(1.5); }
+    }
+    @keyframes moveMagenta {
+      0% { transform: translate(620px, 120px) scale(1.3); }
+      100% { transform: translate(380px, 130px) scale(0.9); }
+    }
+    @keyframes moveYellow {
+      0% { transform: translate(400px, 70px) scale(0.8); }
+      100% { transform: translate(480px, 140px) scale(1.4); }
+    }
+  </style>
+
+  <rect class="bg" width="800" height="220" rx="12"/>
+
+  <!-- Tintas CMYK em movimento -->
+  <g>
+    <circle class="cyan" r="70" />
+    <circle class="magenta" r="75" />
+    <circle class="yellow" r="65" />
+  </g>
+
+  <!-- Texto Central -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="text">
+    LUIZ CERVIERI
+  </text>
+</svg>
