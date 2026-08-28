@@ -19,10 +19,10 @@
   <style>
     .bg { fill: url(#bgGrad); }
 
-    /* Esferas de Luz Neon (Azul e Violeta da foto) */
+   /* Esferas de Luz Neon (Azul e Violeta da foto) */
     .blob-1 { fill: #8A2BE2; opacity: 0.5; animation: move 8s infinite alternate ease-in-out; }
-    .blob-2 { fill: #00BFFF; opacity: 0.4; animation: move 10s infinite alternate-reverse ease-in-out; }
-    .blob-3 { fill: #f7ff01; opacity: 0.3; animation: move 12s infinite alternate ease-in-out; }
+    .blob-2 { fill: #ea00ff; opacity: 0.4; animation: move 10s infinite alternate-reverse ease-in-out; }
+    .blob-3 { fill: #ffe601; opacity: 0.3; animation: move 12s infinite alternate ease-in-out; }
 
     @keyframes move {
       0% { transform: translate(0px, 0px) scale(1); }
@@ -33,7 +33,7 @@
     .pulse-text {
       font-family: 'Segoe UI', Ubuntu, sans-serif;
       font-weight: 900;
-      fill: #f7ff01;
+      fill: #eeff01;
       font-size: 40px;
       letter-spacing: 5px;
       filter: url(#neonGlow);
