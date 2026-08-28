@@ -24,9 +24,9 @@
 
   <!-- Tintas CMYK em movimento -->
   <g>
-    <circle class="cyan" r="70" />
+    <circle class="purple" r="70" />
     <circle class="magenta" r="75" />
-    <circle class="yellow" r="65" />
+    <circle class="gold" r="65" />
   </g>
 
   <!-- Texto Central -->
