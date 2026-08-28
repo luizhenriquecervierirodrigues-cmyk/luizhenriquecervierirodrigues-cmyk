@@ -8,14 +8,36 @@
 
 ---
 
-### 🚀 Sobre Mim
-* 🎓 Cursando Desenvolvimento de Sistemas.
-* 💡 Focado em Front-End, Back-End com Node.js e Arquitetura de Software.
-* 📬 Fique à vontade para me mandar uma mensagem!
+### 🎨 Sobre Mim
+
+**Técnico em Desenvolvimento de Sistemas da Informação** e estudante do **IFMS**, interessado em ampliar conhecimentos na área de TI de forma multifacetada.
+
+Venho aprimorando minhas competências por meio de aulas do Campus, pesquisas acadêmicas e autônomas, além de desenvolvimento de **projetos pessoais e de pesquisa tecnológica**.
 
 ---
 
-### 🛠️ Tecnologias e Ferramentas
+### 📬 Chega Junto!
+
+<p>
+  <a href="https://linkedin.com/in/SEU_LINKEDIN" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:luizhenriquecervierirodrigue@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+</p>
+
+### 📌 Projetos em Destaque
+
+> 🏗️ **Em desenvolvimento:** Organizando os repositórios e documentações dos projetos pessoais, acadêmicos (IFMS) e colaborativos. Em breve os links estarão disponíveis aqui!
+
+### 🔭 Foco Atual
+
+- 🔭 Desenvolvendo **TôPorDentro!**
+- 🌱 Aprofundando estudos em **Flutter**
+
+
+## 🛠️ Tecnologias e Ferramentas
 
 ### Linguagens
 <p>
@@ -58,14 +80,7 @@
 
 
 ---
-
-### 📊 Estatísticas
-
 <p align="center">
-  <img height="180" src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=luizhenriquecervierirodrigues-cmyk&show_icons=true&theme=tokyonight&title_color=f7ff01&icon_color=f7ff01&text_color=ffffff&bg_color=0d1117&include_all_commits=true" alt="Estatísticas GitHub" />
-  <img height="180" src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=luizhenriquecervierirodrigues-cmyk&layout=compact&theme=tokyonight&title_color=f7ff01&text_color=ffffff&bg_color=0d1117" alt="Linguagens mais usadas" />
-</p>
-
-<p align="center">
-  👁️ Visualizações do perfil: <img src="https://komarev.com/ghpvc/?username=luizhenriquecervierirodrigues-cmyk&color=f7ff01&style=flat-square" alt="Perfil Views" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=luizhenriquecervierirodrigues-cmyk&show_icons=true&theme=tokyonight&title_color=f7ff01&icon_color=f7ff01&text_color=ffffff&bg_color=0d1117&include_all_commits=true" alt="Estatísticas GitHub" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=luizhenriquecervierirodrigues-cmyk&layout=compact&theme=tokyonight&title_color=f7ff01&text_color=ffffff&bg_color=0d1117" alt="Linguagens mais usadas" />
 </p>
