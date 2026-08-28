@@ -1,4 +1,4 @@
-![Banner Animado](./banner.svg?v=2)
+![Banner Animado](https://raw.githubusercontent.com/luizhenriquecervierirodrigues-cmyk/luizhenriquecervierirodrigues-cmyk/main/banner.svg)
 
 <p align="center">
   <a href="https://git.io/typing-svg">
